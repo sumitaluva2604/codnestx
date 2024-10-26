@@ -1,0 +1,127 @@
+/* Basic Reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+body {
+    font-family: Poppins !important ;
+    background-color: #f4f4f9;
+}
+.main{
+    margin: 30px auto;
+}
+.citi-btn{
+    background-color: #313265 !important;
+    color: #fff ;
+    font-size: 12px !important;
+}
+.card-content p{
+    color: #A7A7A7;
+    font-size: 12px;
+    font-weight: 400;
+}
+img {
+    max-width: 100%;
+}
+.card-content{
+    display: flex;
+}
+.card {
+    border: none !important;
+    box-shadow: 5px 5px 20px 0px #AAABDF33;
+    margin-bottom: 20px;
+}
+.circle-box{
+    background-color: #fff;
+    /* background-color: #a13c3c; */
+    border-radius: 64px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+.Realtyproduct{
+    background-color: rgba(225, 225, 242, 1);
+    width: 100%;
+    padding: 12px 12px 12px 33px;
+    border-radius: 0px 12px 12px 0px;
+}
+.card-top-content{
+    display: flex;
+    justify-content: space-between;
+}
+.card-top-content h2 ,
+.Realtyproduct h2 ,
+.Realtyproduct .year-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #21252D;
+    /* margin-bottom: 0px; */
+}
+.card-top-content p ,
+.Realtyproduct p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #A7A7A7;
+    margin-bottom: 0px;
+}
+.sub-text{
+    font-size: 12px;
+    font-weight: 400;
+    color: #21252D;
+}
+.Sarvopari-btn{
+    font-size: 12px !important;
+    font-weight: 400;
+    color: #313265 !important;
+    border-color: #313265 !important;
+    padding: 7px 25px !important;
+}
+
+.Sarvopari-btn:hover {
+    background-color: transparent !important;
+}
+.lightbg-btn{
+    background-color: rgba(240, 241, 253, 1) !important;
+    color: #B2B3D9 !important;
+    font-size: 12px !important;
+    border-color: transparent !important;
+
+}
+.Feed-btn{
+    background-color: #313265 !important;
+    color: #fff ;
+    font-size: 16px !important;
+    font-weight: 500;
+    border-radius: 5px 5px 5px 0px !important;
+
+}
+.cardRealty{
+    margin: -59px 30px 15px 0px;
+}
+.cardRealty figure{
+    position: relative;
+    right: -24px;
+}
+.cardRealty figure img{
+    width: 90px;
+}
+.img-item .items{
+    position: relative;
+    margin: 8px;
+}
+.img-text{
+position: absolute;
+font-size: 12px;
+font-weight: 400;
+color: #fff;
+bottom: -4px;
+width: 100%;
+text-align: center;
+}
+.img-item{
+    display: flex;
+}
+
+

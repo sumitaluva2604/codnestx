@@ -1,0 +1,18 @@
+@media (max-width: 424px) {
+    .card-top-content h2, .Realtyproduct h2, .Realtyproduct .year-text {
+        font-size: 13px;
+    }
+    .Sarvopari-btn {
+        font-size: 10px !important;
+    }
+    .cardRealty figure {
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .img-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

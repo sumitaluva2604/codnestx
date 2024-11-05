@@ -58,7 +58,7 @@
                                 Aum Pramukh Om is a project by Aum Corporation in Gandhinagar. It is a Under
                                 Construction project. Aum Pramukh Om offers some of the most conveniently designed
                                 Apartment. Located in Sargasan, it is a residential project. The project is spread over
-                                1.24 Acres . It has 104 units.  <b>Read more...</b>
+                                1.24 Acres . It has 104 units. <b class=" read-more">Read more...</b>
                             </p>
                         </div>
                     </div>
@@ -83,9 +83,9 @@
                                 </div>
                             </div>
                             <p class="sub-text">
-                                Developed by Aum Corporation, is an under-construction residential project in Gandhinagar. Situated in the prime locality of Sargasan, this thoughtfully designed development offers modern apartments. <b>Read more...</b>
+                                Developed by Aum Corporation, is an under-construction residential project in Gandhinagar. Situated in the prime locality of Sargasan, this thoughtfully designed development offers modern apartments. <b class=" read-more">Read more...</b>
                             </p>
-                            <figure>
+                            <figure class="hover-slider">
                                 <img src="img/Mask group.png">
                             </figure>
                         </div>
@@ -108,9 +108,9 @@
                                 </div>
                             </div>
                             <p class="sub-text">
-                                Developed by Aum Corporation, is an under-construction residential project in Gandhinagar. Situated in the prime locality of Sargasan, this thoughtfully designed development offers modern apartments. <b>Read more...</b>
+                                Developed by Aum Corporation, is an under-construction residential project in Gandhinagar. Situated in the prime locality of Sargasan, this thoughtfully designed development offers modern apartments. <b class=" read-more">Read more...</b>
                             </p>
-                            <figure>
+                            <figure class="hover-slider">
                                 <img src="img/Mask group.png">
                             </figure>
                         </div>
@@ -133,9 +133,9 @@
                                 </div>
                             </div>
                             <p class="sub-text">
-                                Developed by Aum Corporation, is an under-construction residential project in Gandhinagar. Situated in the prime locality of Sargasan, this thoughtfully designed development offers modern apartments. <b>Read more...</b>
+                                Developed by Aum Corporation, is an under-construction residential project in Gandhinagar. Situated in the prime locality of Sargasan, this thoughtfully designed development offers modern apartments. <b class=" read-more">Read more...</b>
                             </p>
-                            <figure>
+                            <figure class="hover-slider">
                                 <img src="img/Mask group.png">
                             </figure>
                         </div>
@@ -158,9 +158,9 @@
                                 </div>
                             </div>
                             <p class="sub-text">
-                                Developed by Aum Corporation, is an under-construction residential project in Gandhinagar. Situated in the prime locality of Sargasan, this thoughtfully designed development offers modern apartments. <b>Read more...</b>
+                                Developed by Aum Corporation, is an under-construction residential project in Gandhinagar. Situated in the prime locality of Sargasan, this thoughtfully designed development offers modern apartments. <b class=" read-more">Read more...</b>
                             </p>
-                            <figure>
+                            <figure class="hover-slider">
                                 <img src="img/Mask group.png">
                             </figure>
                         </div>
@@ -193,6 +193,24 @@
             </div>
         </div>
     </div>
+    <script>
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const readMoreButtons = document.querySelectorAll(".read-more");
+
+            readMoreButtons.forEach(button => {
+                button.addEventListener("click", function() {
+                    const parent = this.closest(".card-body p");
+                    const fullText = document.createElement("p");
+                    fullText.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi temporibus quidem laboriosam quia maiores natus quis architecto vitae eligendi perspiciatis in, repellendus suscipit voluptatibus magnam tempore molestias maxime eos voluptatem?.";
+                    parent.appendChild(fullText);
+                    this.remove();
+                });
+            });
+        });
+
+    </script>
 </body>
 
 </html>
